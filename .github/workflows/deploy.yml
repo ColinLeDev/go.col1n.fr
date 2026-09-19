@@ -34,6 +34,8 @@ jobs:
 
       - name: Generate URL Shortener
         uses: pndurette/gh-pages-url-shortener-action@v2
+        with:
+          default_redirect: ""
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
